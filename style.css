@@ -39,6 +39,6 @@
   .sidebar-offcanvas {
     position: absolute;
     top: 0;
-    width: 50%; /* 6 columns */
+    width: 25%; /* 6 columns */
   }
 }
