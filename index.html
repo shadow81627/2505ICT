@@ -10,11 +10,24 @@
     <meta name="author" content="Damien Robinson">
     
     <title ng-bind="title"></title>
-
+    
     <!-- Bootstrap CSS-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css">    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css">  
+    
+    <!-- My styles -->
+    <link rel="stylesheet" href="style.css">    
    </head>
   <body>
+    <div class="container-fluid">
+      <!-- Navbar -->
+      <nav class="navbar navbar-light bg-faded">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar" aria-controls="exCollapsingNavbar" aria-expanded="false" aria-label="Toggle navigation"></button>
+        <div class="collapse" id="exCollapsingNavbar">
+          <div class="bg-inverse text-muted p-1 card card-block">
+          </div>
+        </div>
+      </nav>
+    </div>
 
     <!-- jQuery JavaScript -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
