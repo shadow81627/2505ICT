@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="myApp" ng-controller="myCtrl">
+<html lang="en" ng-app="app" ng-controller="myCtrl">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -21,25 +21,20 @@
     <div class="container-fluid">
       <!-- Navbar -->
       <nav class="navbar navbar-light bg-faded">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar" aria-controls="exCollapsingNavbar" aria-expanded="false" aria-label="Toggle navigation"></button>
-        <a class="navbar-brand" href="#">Navbar</a>
-      </nav>
-      <div class="collapse col-xs-3 sidebar-offcanvas" id="exCollapsingNavbar">
-        <div class="list-group">
-          <a href="#" class="list-group-item active">Link</a>
-          <a href="#" class="list-group-item">Link</a>
-          <a href="#" class="list-group-item">Link</a>
-          <a href="#" class="list-group-item">Link</a>
-          <a href="#" class="list-group-item">Link</a>
-          <a href="#" class="list-group-item">Link</a>
-          <a href="#" class="list-group-item">Link</a>
-          <a href="#" class="list-group-item">Link</a>
-          <a href="#" class="list-group-item">Link</a>
-          <a href="#" class="list-group-item">Link</a>
+        <div class="nav navbar-nav">
+          <button class="navbar-toggler nav-item" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar" aria-controls="exCollapsingNavbar" aria-expanded="false" aria-label="Toggle navigation"></button>
+          <a class="navbar-brand nav-item" href="#/" ng-bind="title"></a>
+          <div class="collapse dropdown-menu" id="exCollapsingNavbar">
+            <a class="dropdown-item" href="#/posts">Posts</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
         </div>
-      </div>
+      </nav>
+      <!-- Content -->
+      <div ng-view></div>
     </div>
-
+    
     <!-- jQuery JavaScript -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <!-- Boostrap JavaScript -->
@@ -55,6 +50,7 @@
     
     <!-- My scripts-->
     <script src="app.js"></script>
+    <script src="routes.js"></script>
 
   </body>
 </html>
