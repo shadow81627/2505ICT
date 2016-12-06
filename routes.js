@@ -3,7 +3,7 @@ app.config(function($routeProvider) {
     .when("/home", {
       templateUrl : "Views/home.html"
     })
-    .when("/post", {
+    .when("/posts", {
       templateUrl : "Views/posts.html"
     })
     .otherwise({
