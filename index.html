@@ -23,7 +23,8 @@
       <nav class="navbar navbar-light bg-faded">
         <div class="nav navbar-nav">
           <button class="navbar-toggler nav-item" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar" aria-controls="exCollapsingNavbar" aria-expanded="false" aria-label="Toggle navigation"></button>
-          <a class="navbar-brand nav-item" href="#/" ng-bind="title"></a>
+          <a class="navbar-brand nav-item" href="#/home" ng-bind="title"></a>
+          <span class="navbar-text"> | {{routeParams}}</span>
           <div class="collapse dropdown-menu" id="exCollapsingNavbar">
             <a class="dropdown-item" href="#/posts">Posts</a>
             <a class="dropdown-item" href="#">Another action</a>
