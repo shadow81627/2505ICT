@@ -24,17 +24,16 @@
         <div class="nav navbar-nav">
           <button class="navbar-toggler nav-item" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar" aria-controls="exCollapsingNavbar" aria-expanded="false" aria-label="Toggle navigation"></button>
           <a class="navbar-brand nav-item" href="#/home" ng-bind="title"></a>
-          <div class="dropdown-menu">
-            <a class="dropdown-item" href="#/posts">Posts</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <a class="dropdown-item" href="#">Something else here</a>
-          </div>
         </div>
+        <form class="form-inline float-xs-right">
+          <input class="form-control" type="text" placeholder="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
       </nav>
       <!-- Content -->
       <div class="row">
         <div class="col-sm-2 collapse sidenav" id="exCollapsingNavbar">
-            <a href="#">About</a>
+            <a href="#/posts">Posts</a>
             <a href="#">Services</a>
             <a href="#">Clients</a>
             <a id="bottom" href="#">Contact</a>
