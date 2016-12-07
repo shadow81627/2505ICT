@@ -20,11 +20,11 @@
   <body>
     <div class="container-fluid">
       <!-- Navbar -->
-      <nav class="navbar navbar-light bg-faded">
+      <nav class="navbar navbar-dark bg-primary">
         <div class="nav navbar-nav">
           <button class="navbar-toggler nav-item" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar" aria-controls="exCollapsingNavbar" aria-expanded="false" aria-label="Toggle navigation"></button>
           <a class="navbar-brand nav-item" href="#/home" ng-bind="title"></a>
-          <div class="collapse dropdown-menu" id="exCollapsingNavbar">
+          <div class="dropdown-menu">
             <a class="dropdown-item" href="#/posts">Posts</a>
             <a class="dropdown-item" href="#">Another action</a>
             <a class="dropdown-item" href="#">Something else here</a>
@@ -33,7 +33,12 @@
       </nav>
       <!-- Content -->
       <div class="row">
-        <div class="col-sm-2">memes</div>
+        <div class="col-sm-2 collapse sidenav" id="exCollapsingNavbar">
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Clients</a>
+            <a id="bottom" href="#">Contact</a>
+        </div>
         <div class="col-sm-10" ng-view></div>
       </div>
     </div>
