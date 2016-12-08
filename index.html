@@ -25,10 +25,23 @@
           <button class="navbar-toggler nav-item" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar" aria-controls="exCollapsingNavbar" aria-expanded="false" aria-label="Toggle navigation"></button>
           <a class="navbar-brand nav-item" href="#/home" ng-bind="title"></a>
         </div>
-        <form class="form-inline float-xs-right">
-          <input class="form-control" type="text" placeholder="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
+        <!-- Search -->
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6 col-sm-offset-3">
+              <div id="imaginary_container"> 
+                <div class="input-group stylish-input-group">
+                  <input type="text" class="form-control"  placeholder="Search" >
+                  <span class="input-group-addon">
+                    <button type="button">
+                      <i class="fa fa-search" aria-hidden="true"></i>
+                    </button>  
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </nav>
       <!-- Content -->
       <div class="row">
