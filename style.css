@@ -32,6 +32,10 @@ figure {
     overflow: hidden;
 }
 
+.fa-exclamation-circle, .fa-user-circle{
+    color: white;
+}
+
 .stylish-input-group .input-group-addon{
     background: white !important; 
 }
