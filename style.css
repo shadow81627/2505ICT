@@ -4,6 +4,7 @@
     z-index: 1; /* Stay on top */
     background-color: #111; /* Black*/
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    position: fixed;
 }
 /* The navigation menu links */
 .sidenav a {
@@ -32,10 +33,6 @@ figure {
     overflow: hidden;
 }
 
-.fa-exclamation-circle, .fa-user-circle{
-    color: white;
-}
-
 .stylish-input-group .input-group-addon{
     background: white !important; 
 }
@@ -47,4 +44,8 @@ figure {
 .stylish-input-group button{
     border:0;
     background:transparent;
+}
+
+.white{
+    color: white;
 }
