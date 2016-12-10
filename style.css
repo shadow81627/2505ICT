@@ -2,7 +2,7 @@
 .sidenav {
     height: 100%; /* 100% Full-height */
     z-index: 1; /* Stay on top */
-    background-color: #111; /* Black*/
+    background-color: grey; /* Black*/
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
     position: fixed;
 }
@@ -18,7 +18,7 @@
 
 /* When you mouse over the navigation links, change their color */
 .sidenav a:hover{
-    color: red;
+    color: darkblue;
 }
 
 figure {

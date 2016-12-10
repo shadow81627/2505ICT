@@ -10,7 +10,6 @@ $(function() {
     $("#search").submit(function(event){
         event.preventDefault();
         flickr.getSearch();
-        console.log("memes")
     });
 
     $("#login-btn").click(function(){

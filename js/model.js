@@ -46,7 +46,7 @@ flickr.getImage = function(photoObj){
     $.get(getSizeStr, function(data){
         //Retrive different size image
         for(var i = 0; i < data.sizes.size.length; i ++) {
-            if(data.sizes.size[i].label == "Small"){
+            if(data.sizes.size[i].label == "Medium"){
                 photoObj.thumbnail = data.sizes.size[i].source;
             }
             if(data.sizes.size[i].label == "Large") {
