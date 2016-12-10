@@ -51,3 +51,15 @@ figure {
 }
 
 /*html, body {margin: 0; height: 100%; overflow: hidden}*/
+
+#leftArrow {
+    position:fixed;
+    top: 50%;
+    left: 0;
+}
+
+#rightArrow {
+    position:fixed;
+    top: 50%;
+    right: 0;
+}
