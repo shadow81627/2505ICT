@@ -6,6 +6,9 @@ app.config(function($routeProvider) {
     .when("/posts2", {
       templateUrl : "Views/posts2.html"
     })
+    .when("/groups", {
+      templateUrl : "Views/groups.html"
+    })
     .otherwise({
       templateUrl : "Views/home.html"
     });
