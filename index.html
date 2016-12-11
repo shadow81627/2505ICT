@@ -69,8 +69,9 @@
             <a><i class="fa fa-user-circle fa-2x white" aria-hidden="true" data-toggle="collapse" href="#rightMenu" aria-expanded="false" aria-controls="rightMenu"></i></a>
           </form>
         </div>
-        <a href="#/posts1"><i class="fa fa-arrow-left fa-2x" id="leftArrow" aria-hidden="true"></i></a>
-        <a href="#/posts2"><i class="fa fa-arrow-right fa-2x" id="rightArrow" aria-hidden="true"></i></a>
+        <!-- previous and next post navigation buttons -->
+        <a href="#/home" onclick="flickr.getInteresting(view.displayThumb);"><i class="fa fa-arrow-left fa-2x" id="leftArrow" aria-hidden="true"></i></a>
+        <a href="#/posts2" onclick="flickr.getInteresting(view.displayThumb);"><i class="fa fa-arrow-right fa-2x" id="rightArrow" aria-hidden="true"></i></a>
       </nav>
       <!-- Content -->
       <div class="row">
@@ -87,10 +88,14 @@
         <div class="col-sm-8 offset-md-2" ng-view></div>
         <!-- Righ Side menu -->
          <div class="col-sm-2 offset-md-10 collapse sidenav" id="rightMenu">
-            <a href="#/posts">rightMenu</a>
-            <a href="#">Services</a>
-            <a href="#">Clients</a>
-            <a id="bottom" href="#">Contact</a>
+            <a href="#"><i class="fa fa-user fa-2x white" aria-hidden="true"></i> John Smith</a>
+            <a href="#"><i class="fa fa-user fa-2x white" aria-hidden="true"></i> Peter File</a>
+            <a href="#"><i class="fa fa-user fa-2x white" aria-hidden="true"></i> Bill Murry</a>
+            <a href="#"><i class="fa fa-user fa-2x white" aria-hidden="true"></i> John Williams</a>
+            <a href="#"><i class="fa fa-user fa-2x white" aria-hidden="true"></i> Hugh Jazz</a>
+            <a href="#"><i class="fa fa-user fa-2x white" aria-hidden="true"></i> Rob Williams</a>
+            <a href="#"><i class="fa fa-user fa-2x white" aria-hidden="true"></i> Lisa Peters</a>
+            <a href="#"><i class="fa fa-user fa-2x white" aria-hidden="true"></i> Ronda Smith</a>
         </div>
       </div>
     </div>
