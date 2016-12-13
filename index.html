@@ -106,23 +106,24 @@
         <!-- Righ Side menu -->
         <div class="" id="rightMenu">
           <nav id="right-sidenav" class="col-sm-2 offset-md-10 sidenav navbar nav nav-pills nav-stacked">
-              <a href="" class="nav-link active"><img class="rounded-circle" src="photos/Mark.jpg" alt="Mark" height="50" width="50"> John Smith</a>
-              <a href="" class="nav-link"><img class="rounded-circle" src="photos/Peter.jpg" alt="Mark" height="50" width="50"> Peter File</a>
-              <a href="" class="nav-link"><img class="rounded-circle" src="photos/Rebecca.jpg" alt="Mark" height="50" width="50"> Rebecca Winter</a>
+              <a href="" id="mark-bar" class="nav-link active"><img class="rounded-circle" src="photos/Mark.jpg" alt="Mark" height="50" width="50"> John Smith</a>
+              <a href="" id="peter-bar" class="nav-link"><img class="rounded-circle" src="photos/Peter.jpg" alt="Mark" height="50" width="50"> Peter File</a>
+              <a href="" id="rebecca-bar" class="nav-link"><img class="rounded-circle" src="photos/Rebecca.jpg" alt="Mark" height="50" width="50"> Rebecca Winter</a>
           </nav>
           <!-- Chat box -->
-          <div class="chat card col-sm-2 offset-md-8">
+          <div id="mark-chat" class="chat card col-sm-2 offset-md-8">
             <div class="card-block chat-heading">
+              <i class="fa fa-times fa-3x float-xs-right" aria-hidden="true" id="close-chat-1"></i>
               <h4 class="card-title">John Smith</h4>
               <h6 class="card-subtitle text-muted">Active now</h6>
               </div>
                 <div class="chat-body">
                   <div class="card-block">
                   <img class="rounded-circle" src="photos/Mark.jpg" alt="Mark" height="50" width="50">
-                  <p class="bg-primary text-white d-inline chat-text" >Hello</p>
+                  <p class="bg-primary text-white d-inline chat-text" >Whats up</p>
                 </div>
                 <div class="card-block">
-                  <p class="bg-primary text-white chat-text text-xs-right float-xs-right">Hi</p>
+                  <p class="bg-primary text-white chat-text text-xs-right float-xs-right">nothing</p>
                 </div>
                 <div class="input-group card-block">
                   <input type="text" class="form-control" placeholder="Write a message...">
@@ -133,18 +134,18 @@
               </div>
             </div>
             <!-- Chat box -->
-          <div class="chat card col-sm-2 offset-md-6">
+          <div class="chat card col-sm-2 offset-md-6" style="display: none;">
             <div class="card-block chat-heading">
-              <h4 class="card-title">John Smith</h4>
+              <h4 class="card-title">Peter File</h4>
               <h6 class="card-subtitle text-muted">Active now</h6>
               </div>
                 <div class="chat-body">
                   <div class="card-block">
-                  <img class="rounded-circle" src="photos/Mark.jpg" alt="Mark" height="50" width="50">
-                  <p class="bg-primary text-white d-inline chat-text" >Hello</p>
+                  <img class="rounded-circle" src="photos/Peter.jpg" alt="Peter" height="50" width="50">
+                  <p class="bg-primary text-white d-inline chat-text" >Coffee please</p>
                 </div>
                 <div class="card-block">
-                  <p class="bg-primary text-white chat-text text-xs-right float-xs-right">Hi</p>
+                  <p class="bg-primary text-white chat-text text-xs-right float-xs-right">brb</p>
                 </div>
                 <div class="input-group card-block">
                   <input type="text" class="form-control" placeholder="Write a message...">
@@ -155,14 +156,14 @@
               </div>
             </div>
             <!-- Chat box -->
-          <div class="chat card col-sm-2 offset-md-4">
+          <div class="chat card col-sm-2 offset-md-4" style="display: none;">
             <div class="card-block chat-heading">
-              <h4 class="card-title">John Smith</h4>
+              <h4 class="card-title">Rebecca Winter</h4>
               <h6 class="card-subtitle text-muted">Active now</h6>
               </div>
                 <div class="chat-body">
                   <div class="card-block">
-                  <img class="rounded-circle" src="photos/Mark.jpg" alt="Mark" height="50" width="50">
+                  <img class="rounded-circle" src="photos/Rebecca.jpg" alt="Rebecca" height="50" width="50">
                   <p class="bg-primary text-white d-inline chat-text" >Hello</p>
                 </div>
                 <div class="card-block">

@@ -29,6 +29,15 @@ $(function() {
         $(".chat-body").slideToggle(500);
     });
     
+    $("#close-chat-1").click(function(){
+        $(".chat").hide();
+    });
+    
+    $("#mark-bar").click(function(){
+        $("#mark-chat").show();
+        $(".chat-body").show(500);
+    });
+    
     /**
      * When the back button is pressed the splash screen is displayed and the 
      * thumbnails are hidden.
