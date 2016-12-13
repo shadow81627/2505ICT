@@ -2,7 +2,7 @@
 .sidenav {
     height: 100%; /* 100% Full-height */
     z-index: 1; /* Stay on top */
-    background-color: grey; /* Black*/
+    background-color: grey;
     transition: 0.1s; /* 0.5 second transition effect to slide in the sidenav */
     position: fixed;
 }
@@ -10,7 +10,7 @@
 .sidenav a {
     padding: 8px 8px 8px 0px;
     text-decoration: none;
-    font-size: 24px;
+    font-size: 25px;
     color: white;
     display: block;
     transition: 0.3s
@@ -60,10 +60,6 @@ figure {
 
 html, body {margin: 0; padding: 0px; height: 100%; overflow: hidden}
 
-/*.container-fluid {
-    padding-left: 0px;
-    padding-right: 0px;
-}*/
 #leftArrow {
     position:fixed;
     top: 50%;
@@ -79,4 +75,9 @@ html, body {margin: 0; padding: 0px; height: 100%; overflow: hidden}
 #chat {
     position: fixed;
     bottom: 0px;
+}
+
+.chat-text {
+    padding: 0.5rem;
+    border-radius: 1.25rem;
 }
