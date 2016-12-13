@@ -26,7 +26,7 @@ $(function() {
     });
     
      $(".chat-heading").click(function(){
-        $("#chat-body").slideToggle(500);
+        $(".chat-body").slideToggle(500);
     });
     
     /**

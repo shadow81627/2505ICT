@@ -71,7 +71,7 @@ html, body {margin: 0; padding: 0px; height: 100%; overflow: hidden}
     right: 0;
 }
 
-#chat {
+.chat {
     position: fixed;
     bottom: 0px;
     margin-bottom: 0px;
