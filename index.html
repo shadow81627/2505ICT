@@ -44,7 +44,7 @@
   <body>
     <div class="container-fluid">
       <!-- Navbar -->
-      <nav class="navbar navbar-dark bg-primary">
+      <nav class="navbar navbar-fixed-top navbar-dark bg-primary">
         <div class="nav navbar-nav">
           <button class="navbar-toggler nav-item" type="button" data-toggle="collapse" data-target="#leftMenu" aria-controls="leftMenu" aria-expanded="false" aria-label="Toggle navigation"></button>
           <a class="navbar-brand nav-item" href="#/home" ng-bind="title"></a>
@@ -100,7 +100,7 @@
         <div class="col-sm-8 offset-md-2" ng-view></div>
         <!-- Righ Side menu -->
         <div class="collapse" id="rightMenu">
-          <div class="col-sm-2 offset-md-10 sidenav">
+          <nav class="col-sm-2 offset-md-10 sidenav card">
               <a href=""><i class="fa fa-user fa-2x white" aria-hidden="true"></i> John Smith</a>
               <a href=""><i class="fa fa-user fa-2x white" aria-hidden="true"></i> Peter File</a>
               <a href=""><i class="fa fa-user fa-2x white" aria-hidden="true"></i> Bill Murry</a>
@@ -109,7 +109,7 @@
               <a href=""><i class="fa fa-user fa-2x white" aria-hidden="true"></i> Rob Williams</a>
               <a href=""><i class="fa fa-user fa-2x white" aria-hidden="true"></i> Lisa Peters</a>
               <a href=""><i class="fa fa-user fa-2x white" aria-hidden="true"></i> Ronda Smith</a>
-          </div>
+          </nav>
           <div id="chat" class="card col-sm-2 offset-md-8">
             <div class="card-block">
               <h4 class="card-title">John Smith</h4>
