@@ -25,8 +25,16 @@ $(function() {
         $("#right-sidenav").slideToggle(500);
     });
     
-     $(".chat-heading").click(function(){
-        $(".chat-body").slideToggle(500);
+     $("#mark-heading").click(function(){
+        $("#mark-chat").slideToggle(500);
+    });
+    
+    $("#peter-heading").click(function(){
+        $("#peter-chat").slideToggle(500);
+    });
+    
+    $("#rebecca-heading").click(function(){
+        $("#rebecca-chat").slideToggle(500);
     });
     
     $("#close-chat-1").click(function(){
