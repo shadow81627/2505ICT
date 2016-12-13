@@ -5,7 +5,7 @@ var view = {};
 
 $(function() {
     
-    flickr.getInteresting(view.displayThumb);
+    //flickr.getInteresting(view.displayThumb);
     
     $("#search").submit(function(event){
         event.preventDefault();
@@ -21,10 +21,8 @@ $(function() {
      * the splash screen button will be hidden.
      *
      */
-    $("#splash-btn").click(function(){
-        $("#splash").hide();
-        $("#thumbnails").show(2000);
-        $("#back-btn").show();
+    $("#rightMenu-btn").click(function(){
+        $("#rightMenu").toggle();
     });
     
     /**
