@@ -46,7 +46,7 @@
       <!-- Navbar -->
       <nav class="navbar navbar-fixed-top navbar-dark bg-primary">
         <div class="nav navbar-nav">
-          <button class="navbar-toggler nav-item" title="Menu" type="button" data-toggle="collapse tooltip" data-target="#leftMenu" aria-controls="leftMenu" aria-expanded="false" aria-label="Toggle navigation"></button>
+          <button id="nav-toggler" class="navbar-toggler nav-item" title="Menu" type="button" data-toggle="tooltip" data-target="#leftMenu" aria-controls="leftMenu" aria-expanded="false" aria-label="Toggle navigation"></button>
           <a class="navbar-brand nav-item" href="#/home" ng-bind="title"></a>
         </div>
         <!-- Search -->
@@ -92,7 +92,7 @@
       <!-- Content -->
       <div class="row">
         <!-- Left side menu -->
-        <div class="col-sm-2 collapse sidenav" id="leftMenu">
+        <div class="col-sm-2 collapse sidenav" id="left-sidenav">
             <a href="#/home">Home</a>
             <a href="">Alerts</a>
             <a href="">Chat</a>
@@ -105,19 +105,19 @@
         <!-- previous and next post navigation buttons -->
         <!-- Righ Side menu -->
         <div class="" id="rightMenu">
-          <nav id="right-sidenav" class="col-sm-2 offset-md-10 sidenav navbar nav nav-pills nav-stacked">
-              <a href="" id="mark-bar" class="nav-link active"><img class="rounded-circle" src="photos/Mark.jpg" alt="Mark" height="50" width="50"> John Smith</a>
+          <nav id="right-sidenav" class="col-sm-2 offset-md-10 sidenav navbar nav nav-pills nav-stacked collapse">
+              <a href="" id="mark-bar" class="nav-link"><img class="rounded-circle" src="photos/Mark.jpg" alt="Mark" height="50" width="50"> John Smith</a>
               <a href="" id="peter-bar" class="nav-link"><img class="rounded-circle" src="photos/Peter.jpg" alt="Mark" height="50" width="50"> Peter File</a>
               <a href="" id="rebecca-bar" class="nav-link"><img class="rounded-circle" src="photos/Rebecca.jpg" alt="Mark" height="50" width="50"> Rebecca Winter</a>
           </nav>
           <!-- Chat box -->
-          <div id="mark-chat" class="chat card col-sm-2 offset-md-8">
+          <div id="mark-chat" class="chat card col-sm-2 offset-md-8" style="display: none;">
             <div class="card-block chat-heading">
               <i class="fa fa-times fa-3x float-xs-right" aria-hidden="true" id="close-chat-1"></i>
               <h4 class="card-title">John Smith</h4>
               <h6 class="card-subtitle text-muted">Active now</h6>
               </div>
-                <div class="chat-body">
+                <div id="mark-chat-body" class="chat-body">
                   <div class="card-block">
                   <img class="rounded-circle" src="photos/Mark.jpg" alt="Mark" height="50" width="50">
                   <p class="bg-primary text-white d-inline chat-text" >Whats up</p>
@@ -134,12 +134,13 @@
               </div>
             </div>
             <!-- Chat box -->
-          <div class="chat card col-sm-2 offset-md-6" style="display: none;">
+          <div id="peter-chat" class="chat card col-sm-2 offset-md-6" style="display: none;">
             <div class="card-block chat-heading">
+              <i class="fa fa-times fa-3x float-xs-right" aria-hidden="true" id="close-chat-2"></i>
               <h4 class="card-title">Peter File</h4>
               <h6 class="card-subtitle text-muted">Active now</h6>
               </div>
-                <div class="chat-body">
+                <div id="peter-chat-body" class="chat-body">
                   <div class="card-block">
                   <img class="rounded-circle" src="photos/Peter.jpg" alt="Peter" height="50" width="50">
                   <p class="bg-primary text-white d-inline chat-text" >Coffee please</p>
@@ -156,12 +157,13 @@
               </div>
             </div>
             <!-- Chat box -->
-          <div class="chat card col-sm-2 offset-md-4" style="display: none;">
+          <div id="rebecca-chat" class="chat card col-sm-2 offset-md-4" style="display: none;">
             <div class="card-block chat-heading">
+              <i class="fa fa-times fa-3x float-xs-right" aria-hidden="true" id="close-chat-3"></i>
               <h4 class="card-title">Rebecca Winter</h4>
               <h6 class="card-subtitle text-muted">Active now</h6>
               </div>
-                <div class="chat-body">
+                <div id="rebecca-chat-body" class="chat-body">
                   <div class="card-block">
                   <img class="rounded-circle" src="photos/Rebecca.jpg" alt="Rebecca" height="50" width="50">
                   <p class="bg-primary text-white d-inline chat-text" >Hello</p>

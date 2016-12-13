@@ -30,12 +30,34 @@ $(function() {
     });
     
     $("#close-chat-1").click(function(){
-        $(".chat").hide();
+        $("#mark-chat").hide();
+    });
+    
+    $("#close-chat-2").click(function(){
+        $("#peter-chat").hide();
+    });
+    
+    $("#close-chat-3").click(function(){
+        $("#rebecca-chat").hide();
     });
     
     $("#mark-bar").click(function(){
         $("#mark-chat").show();
-        $(".chat-body").show(500);
+        $("#mark-chat-body").show(500);
+    });
+    
+    $("#peter-bar").click(function(){
+        $("#peter-chat").show();
+        $("#peter-chat-body").show(500);
+    });
+    
+    $("#rebecca-bar").click(function(){
+        $("#rebecca-chat").show();
+        $("#rebecca-chat-body").show(500);
+    });
+    
+    $("#nav-toggler").click(function(){
+        $("#left-sidenav").toggle();
     });
     
     /**
