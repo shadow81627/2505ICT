@@ -65,7 +65,7 @@ $(function() {
     });
     
     $("#nav-toggler").click(function(){
-        $("#left-sidenav").toggle();
+        $("#left-sidenav").toggle(500);
     });
     
     /**
