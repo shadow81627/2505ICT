@@ -25,6 +25,10 @@ $(function() {
         $("#right-sidenav").slideToggle(500);
     });
     
+     $(".chat-heading").click(function(){
+        $("#chat-body").slideToggle(500);
+    });
+    
     /**
      * When the back button is pressed the splash screen is displayed and the 
      * thumbnails are hidden.
