@@ -3,7 +3,7 @@
     height: 100%; /* 100% Full-height */
     z-index: 1; /* Stay on top */
     background-color: grey; /* Black*/
-    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    transition: 0.1s; /* 0.5 second transition effect to slide in the sidenav */
     position: fixed;
 }
 /* The navigation menu links */
@@ -58,7 +58,7 @@ figure {
     color: white;
 }
 
-/*html, body {margin: 0; height: 100%; overflow: hidden}*/
+html, body {margin: 0; height: 100%; overflow: hidden}
 
 #leftArrow {
     position:fixed;
@@ -70,4 +70,9 @@ figure {
     position:fixed;
     top: 50%;
     right: 0;
+}
+
+#chat {
+    position: fixed;
+    bottom: 0px;
 }
