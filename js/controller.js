@@ -65,7 +65,7 @@ $(function() {
     });
     
     $("#nav-toggler").click(function(){
-        $("#left-sidenav").toggle(500);
+        $("#left-sidenav").slideToggle(500);
     });
     
     /**
