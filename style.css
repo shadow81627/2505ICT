@@ -57,7 +57,7 @@ figure {
     color: white;
 }
 
-html, body {margin: 0; padding: 0px; height: 100%; overflow: hidden}
+/*html, body {margin: 0; padding: 0px; height: 100%; overflow: hidden}*/
 
 body {
     padding-top: 64px;
