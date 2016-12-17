@@ -90,3 +90,11 @@ html, body {margin: 0; padding: 0px; height: 100%; overflow: hidden}
 #create-title {
     padding-bottom: 250px;
 }
+
+.group-title a:link, .group-title a:visited{
+    color: lightgreen;
+}
+
+.group-title a:hover{
+    color: green;
+}
