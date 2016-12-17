@@ -50,19 +50,17 @@
           <a class="navbar-brand nav-item" href="#/home" ng-bind="title"></a>
         </div>
         <!-- Search -->
-        <div class=" nav-item">
-          <div class="col-sm-6 col-sm-offset-3">
-            <div id="imaginary_container"> 
-              <form id="search" class="input-group stylish-input-group">
-                <input type="search" id="searchBox" class="form-control" name="search" placeholder="Search" >
-                <span class="input-group-addon">
-                  <button type="submit">
-                    <i class="fa fa-search" aria-hidden="true"></i>
-                  </button>  
+          <div class="nav-item">
+            <div class="col-sm-6 col-sm-offset-3">
+              <form class="input-group">
+                <input type="search" id="searchBox" class="form-control" placeholder="Search for...">
+                <span class="input-group-btn">
+                  <button class="btn btn-secondary" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
                 </span>
               </form>
             </div>
           </div>
+         
           <!-- Notifications -->
           <form class="form-inline float-xs-right nav-item">
             <div class="dropdown form-group">
